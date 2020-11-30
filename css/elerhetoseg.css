@@ -9,18 +9,25 @@ html, body {
     font-family: 'Open Sans', sans-serif;
 }
 
+
+html, body {
+    padding: 0px;
+    margin : 0px;
+    min-width: 100vw;
+}
+
 body{
     background-color: darkslategrey;
     text-align: center;
-    
 }
-.flex-container{
-    display: flex;
-    flex-flow: row;
-    align-content: space-between; 
-    flex-wrap: wrap;
-    flex-basis: auto;
-    justify-content: space-evenly;
+.szoveg{
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(211, 127, 32);
+    border: 3px solid black;
+    padding: 5px;
+    margin-bottom: 50px;
 }
 .fejleckep{
     background-image: url(../img/komuves-1.jpg);
@@ -41,13 +48,13 @@ nav{
     font-size: 50px;
     border-top: 2px solid black;
     border-bottom:2px solid black ;
+    margin-bottom: 50px;
 }
 a{
     background-color: #f76300;
     color: white;
     text-decoration: none;
     transition: 250ms ease-in-out ;
-
 }
 a:active{
     background-color:darkred;
@@ -57,61 +64,47 @@ a:hover{
     text-shadow: 2px 2px black;
     transition: 250ms ease-in-out ;
 }
-#Fooldal{
+#Elerhetoseg{
     background-color: darkred;
 }
-#Fooldal:hover{
+#Elerhetoseg:hover{
     background-color:yellow;
 }
 
 .flex-container>img{
     height: 250px;
-    width: 250px;
-    
+    width: 250px;   
 }
-.szoveg{
-    width: 75%;
-    margin-left: auto;
-    margin-right: auto;
+table{
+    width: 80%;
+    height: 20rem;
     background-color: rgb(211, 127, 32);
     border: 3px solid black;
-    padding: 5px;
-    margin-bottom: 50px;
+    margin-left: auto;
+    margin-right: auto;
+}
+td{
+    font-size: larger;
+    border: 2px solid black;
+    background-color: rgb(255, 196, 0);
+}
+tr:first-child>td{
+    background-color: rgb(216, 108, 20);
 }
 footer{
-    background-color: rgb(211, 127, 32);
+    background-color:rgb(211, 127, 32) ;
     margin-top: 100px;
     border: 2px solid black;
+    position: fixed;
     left: 0;
     bottom: 0;
     width: 100%;
     
 }
-@media screen and (max-width:576px) {
-    img {
-      margin: 5px;
-    }
-  }
-
-@media screen and (min-width:576px) {
-    img {
-      margin: 5px;
-    }
-  }
 
 h1{
     color: white;
     font-size: 48px;
-}
-
-img{
-    border: 2px solid black;
-    border-radius: 22px;
-}
-
-img:hover{
-    transform: scale(1.25);
-    transition: transform.2s;
 }
 .szoveg:hover{
     transform: scale(1.25);
