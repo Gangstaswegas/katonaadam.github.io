@@ -1,1 +1,2 @@
-# katonaadam.github.io
+# Webproject
+Web beadandó feladat github-os megvalósítása
