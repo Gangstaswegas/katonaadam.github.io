@@ -117,3 +117,6 @@ img:hover{
     transform: scale(1.25);
     transition: transform.2s;
 }
+#vissza{
+    border-radius: 20px;
+}

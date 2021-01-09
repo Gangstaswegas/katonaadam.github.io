@@ -48,6 +48,7 @@
     </div>
     <footer>
         <h1>Katona Németh Ádám</h1>
+        <a href="belepes.php">Admin belépés</a>
     </footer>
 </body>
 

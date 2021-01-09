@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/foglalas.css">
-    <title>Lakatos István </title>
+    <title>Foglalás </title>
     <link rel="icon" type="image/jpeg" href="./img/icon.jpg">
 </head>
 
@@ -31,6 +31,7 @@
     </div>
     <footer>
         <h1>Katona Németh Ádám</h1>
+        <a href="belepes.php">Admin belépés</a>
     </footer>
 </body>
 
