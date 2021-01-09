@@ -113,11 +113,10 @@ img:hover{
     transform: scale(1.25);
     transition: transform.2s;
 }
-.szoveg:hover{
-    transform: scale(1.25);
-    transition: transform.2s;
-}
+
 .foglalas{
+    margin-left: auto;
+    margin-right: auto;
     width: 200px;
     height: 200px;
     align-items: center;
@@ -128,7 +127,12 @@ form{
 
 }
 input[type = submit]{
+    margin-top:10px ;
     background-color: darkred;
     font-weight: bold;
     border-radius: 25px;
+}
+input[type= submit]:hover{
+    background-color: yellow;
+    transition: 200ms ease-in-out ;
 }

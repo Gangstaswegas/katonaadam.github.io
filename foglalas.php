@@ -18,13 +18,13 @@
         <a id="Foglalas" href="foglalas.php">Foglalás</a>
     </nav>
     <h1>Időpont Foglalás</h1>
-    <div class="szoveg">Időpontot a következőképpen foglalhat: <br>
-        Megadja a nevét, illetve a telefonszámát, és én megkeresem önt telefonon, ahol részletesen meg tudjuk beszélni a munka további menetét!
+    <div class="szoveg"><h2>Időpontot a következőképpen foglalhat:</h2> <br>
+        <p>Megadja a nevét, E-mail címét illetve a telefonszámát, és én megkeresem önt telefonon, ahol részletesen meg tudjuk beszélni a munka további menetét!</p>
         <div class="foglalas">
             <form action="feldolgoz.php" method="post">
-                Név: <input type="text" name="nev"><br>
-                E-mail: <input type="email" name="email"><br>
-                Tel: <input type="number" name="datum" id="datum">
+                Név: <input type="text" id="name" name="nev"><br>
+                E-mail: <input type="email" id= "email" name="email"><br>
+                Tel: <input type="number" name="telefon" id="telefon">
                 <input type="submit" value="Elküldés">
             </form>
         </div>
