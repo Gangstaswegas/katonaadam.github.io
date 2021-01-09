@@ -1,0 +1,134 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap');
+
+html, body {
+    width: 100%;
+    padding: 0px;
+    margin : 0px;
+    min-width: 100vw;
+    font-family: 'Open Sans', sans-serif;
+}
+
+body{
+    background-color: darkslategrey;
+    text-align: center;
+    
+}
+.flex-container{
+    display: flex;
+    flex-flow: row;
+    align-content: space-between; 
+    flex-wrap: wrap;
+    flex-basis: auto;
+    justify-content: space-evenly;
+}
+.fejleckep{
+    background-image: url(../img/komuves-1.jpg);
+    width: 100%;
+    height: 200px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+ul{
+    list-style: square;
+    list-style-position: inside;
+    
+}
+nav{
+    
+    background-color: rgb(211, 127, 32);
+    font-size: 35px;
+    border-top: 2px solid black;
+    border-bottom:2px solid black ;
+}
+a{
+    background-color: #f76300;
+    color: white;
+    text-decoration: none;
+    transition: 250ms ease-in-out ;
+
+}
+a:active{
+    background-color:darkred;
+}
+a:hover{
+    background-color: yellow;
+    text-shadow: 2px 2px black;
+    transition: 250ms ease-in-out ;
+}
+#Foglalas{
+    background-color: darkred;
+}
+#Foglalas:hover{
+    background-color:yellow;
+}
+
+.flex-container>img{
+    height: 250px;
+    width: 250px;
+    
+}
+.szoveg{
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(211, 127, 32);
+    border: 3px solid black;
+    padding: 5px;
+    margin-bottom: 50px;
+}
+footer{
+    background-color: rgb(211, 127, 32);
+    margin-top: 100px;
+    border: 2px solid black;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    
+}
+@media screen and (max-width:576px) {
+    img {
+      margin: 5px;
+    }
+  }
+
+@media screen and (min-width:576px) {
+    img {
+      margin: 5px;
+    }
+  }
+
+h1{
+    color: white;
+    font-size: 48px;
+}
+
+img{
+    border: 2px solid black;
+    border-radius: 22px;
+}
+
+img:hover{
+    transform: scale(1.25);
+    transition: transform.2s;
+}
+.szoveg:hover{
+    transform: scale(1.25);
+    transition: transform.2s;
+}
+.foglalas{
+    width: 200px;
+    height: 200px;
+    align-items: center;
+}
+form{
+    margin-left: auto;
+    margin-right: auto;
+
+}
+input[type = submit]{
+    background-color: darkred;
+    font-weight: bold;
+    border-radius: 25px;
+}

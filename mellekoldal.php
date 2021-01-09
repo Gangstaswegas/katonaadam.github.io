@@ -12,9 +12,10 @@
 <body>
     <div class="fejleckep"></div>
     <nav>
-        <a id="Fooldal" href="index.html">Főoldal🏠</a>
-        <a id="Mellekoldal" href="mellekoldal.html">Árlista💰</a>
-        <a id="Elerhetoseg" href="elerhetoseg.html">Elérhetőség📱</a>
+        <a id="Fooldal" href="index.php">Főoldal🏠</a>
+        <a id="Mellekoldal" href="mellekoldal.php">Árlista💰</a>
+        <a id="Elerhetoseg" href="elerhetoseg.php">Elérhetőség📱</a>
+        <a id="Foglalas" href="foglalas.php">Foglalás</a>
     </nav>
 
 
